@@ -1,0 +1,19 @@
+{
+  "name": "blockchain-web-app",
+  "version": "1.0.0",
+  "description": "A simple blockchain web application",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "lite-server",
+    "test": "truffle test"
+  },
+  "dependencies": {
+    "web3": "^1.5.2"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
